@@ -7,6 +7,7 @@ public class Baralho : MonoBehaviour
     public bool startFaceUp = false;
     public GameObject prefabCarta;
     public GameObject prefabSprite;
+
     private Sprite _tSP = null;
     private GameObject _tGO = null;
     private SpriteRenderer _tSR = null;
@@ -79,6 +80,7 @@ public class Baralho : MonoBehaviour
         else _tSR.sortingOrder = 3;
         _carta.faceUp = faceUp;
         _carta.back = _tGO;
+        _carta.nome = "back";
         return _carta;
     }
 

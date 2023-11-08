@@ -238,112 +238,8 @@ MonoBehaviour:
   startFaceUp: 0
   prefabCarta: {fileID: 4199589776274195070, guid: 0b83c09ca9694f143b327163df61592e, type: 3}
   prefabSprite: {fileID: 1439567170184492295, guid: 9c4d04be5fdb8914681472fea1a2fe7d, type: 3}
-  nomesCartas:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  cartasBaralho:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  nomesCartas: []
+  cartasBaralho: []
   pivoBaralho: {fileID: 972764096}
 --- !u!114 &330585549
 MonoBehaviour:
@@ -406,8 +302,8 @@ MonoBehaviour:
   layoutCenter: {x: 0, y: 0, z: 0}
   startFaceUp: 1
   cartaBack: {fileID: 21300000, guid: ae78ac0d16103684597ed35813e466a2, type: 3}
-  prefabCarta: {fileID: 0}
-  prefabSprite: {fileID: 0}
+  prefabCarta: {fileID: 4199589776274195070, guid: 0b83c09ca9694f143b327163df61592e, type: 3}
+  prefabSprite: {fileID: 1439567170184492295, guid: 9c4d04be5fdb8914681472fea1a2fe7d, type: 3}
   baralho: {fileID: 0}
   layout: {fileID: 0}
   monte: []
@@ -718,7 +614,7 @@ GameObject:
   - component: {fileID: 1363534935}
   - component: {fileID: 1363534934}
   m_Layer: 5
-  m_Name: Image
+  m_Name: FundoGarimpeiro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
