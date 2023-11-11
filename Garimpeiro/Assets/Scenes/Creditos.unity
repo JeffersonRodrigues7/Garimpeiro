@@ -264,6 +264,134 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &229877511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 229877513}
+  - component: {fileID: 229877512}
+  m_Layer: 0
+  m_Name: AudioSource
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &229877512
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229877511}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 03927119ff9ac1547b2658645cf6ba09, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.01
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &229877513
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229877511}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 400.79797, y: 243.81648, z: 12.135207}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &586846240
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,21 +534,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "-----FONTES-----\r\nFonte Narcissus-Roman: https://fontsgeek.com/fonts/Narcissus-Roman\r\n\r\n-----\xC1UDIOS----\r\nMenu:
-    Bully Main Theme - Original Introduction (https://www.youtube.com/watch?v=KWef_hQyPKY&ab_channel=BullySongs)\r\n\nTela
-    Inicial: Bully - Soundtrack Welcome to Bullworth (https://www.youtube.com/watch?v=X2QZiukKGqk&list=PLA528B0C12ED9EEFC&index=2&ab_channel=CanisCanemEditBully)\r\n\nPuzzle
-    01: Bully - Soundtrack Gym Class (https://www.youtube.com/watch?v=B3ax1EXC-PU&list=PLA528B0C12ED9EEFC&index=12&ab_channel=CanisCanemEditBully)\r\n\nPuzzle
-    02: Bully - Soundtrack Russell in the Hole (https://www.youtube.com/watch?v=flr8V-CeXM0&list=PLA528B0C12ED9EEFC&index=13&ab_channel=CanisCanemEditBully)\r\n\nVut\xF3ria:
-    Bully OST 112 - Bike Victory (https://www.youtube.com/watch?v=oVLUKk2UDsQ&ab_channel=dmich9)\n\nFalha:
-    Bully OST 008 - Failure (https://www.youtube.com/watch?v=F1iikN_q6bk&list=PL9gHwpSou2KZFcMBY_VdMl8kUUysMKKQA&index=8&ab_channel=dmich9)\r\n\nCr\xE9ditos:
-    Bully - Soundtrack Fighting Johnny Vincent (https://www.youtube.com/watch?v=t49wMk97Tkk&list=PLA528B0C12ED9EEFC&index=30&ab_channel=CanisCanemEditBully)\r\n\r\n-----IMAGENS-----\r\nMenu
-    Background: https://en.riotpixels.com/games/bully/wallpapers/\r\n\nTela Inicial
-    Background: https://en.riotpixels.com/games/bully/wallpapers/\r\n\nPuzzle Background:
-    https://en.riotpixels.com/games/bully/wallpapers/\r\n\nCr\xE9ditos Background:
-    https://browsecat.art/other/bully-background\r\n\r\n-----INFORMA\xC7\xD5ES GERAIS-----\nJogo
-    criado para disciplina: ESZI034 - Jogos Digitais, Aspectos T\xE9cnicos e Aplica\xE7\xF5es
-    3Q23\nAluno: Jefferson Leite Rodrigues Dantas\r  \nRA: 11076316\nProfessor: Dr.
-    Mario Minami\nLink para projeto no GitHub: https://github.com/JeffersonRodrigues7/Puzzle-JogosDigitais\n"
+  m_text: "----- Soundtrack -----\r\nMenu: https://www.youtube.com/watch?v=MjdNz071O4E&ab_channel=Celzia\r\nGame:
+    https://www.youtube.com/watch?v=m8pZjRTHIa0&ab_channel=BetterListen\r\nCreditos:
+    https://www.youtube.com/watch?v=KI25lQ-lKiA&ab_channel=OfficialYu-Gi-Oh%21\r\nRight
+    Answer: https://www.youtube.com/watch?v=ip61YiIfLlo&ab_channel=digi44\r\nWrong
+    Answer: https://www.youtube.com/watch?v=D85AJ5_rSEY&ab_channel=YAKUSOKU1991\r\n\r\n-----
+    Imagens -----\r\nMenu: https://static.vecteezy.com/ti/fotos-gratis/p2/\r\nBacgrkound
+    Vit\xF3ria e Derrota: https://www.deviantart.com/\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -447,7 +567,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
+  m_fontSize: 29.05
   m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 1

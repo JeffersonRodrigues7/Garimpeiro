@@ -110,9 +110,18 @@ public class Garimpeiro : MonoBehaviour
     }
 
     public CartaGarimpeiro Draw(){
-        CartaGarimpeiro cd = monte[0];
-        monte.RemoveAt(0);
-        return(cd);
+        if(monte.Count <= 0)
+        {
+            GameOver(false);
+            return null;
+        }
+        else
+        {
+            CartaGarimpeiro cd = monte[0];
+            monte.RemoveAt(0);
+            return (cd);
+        }
+
     }
 
     void MoveParaDescarte(CartaGarimpeiro ct)
